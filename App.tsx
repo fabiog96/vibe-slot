@@ -135,9 +135,7 @@ const App: React.FC = () => {
       {/* Header */}
       <header className="p-4 bg-slate-950 border-b border-amber-900/30 flex justify-between items-center shadow-lg z-20">
         <div className="flex items-center gap-3">
-            <div className="w-10 h-10 rounded-full bg-gradient-to-br from-amber-400 to-amber-700 flex items-center justify-center text-xl shadow-inner border border-amber-600">
-                🎰
-            </div>
+            
             <h1 className="text-2xl font-display bg-gradient-to-r from-amber-200 to-amber-500 bg-clip-text text-transparent font-bold">
             Vibe Slot
             </h1>
@@ -190,8 +188,8 @@ const App: React.FC = () => {
         </h2>
         
         {/* Decorative Stars */}
-        <span className="absolute -top-4 -left-2 text-3xl animate-bounce">🎰</span>
-        <span className="absolute -bottom-4 -right-2 text-3xl animate-bounce delay-100">🎰</span>
+        <span className="absolute -top-4 -left-2 text-3xl animate-bounce"><img src="/assets/icons/favicon.ico" alt="" className="w-8 h-8" /></span>
+        <span className="absolute -bottom-4 -right-2 text-3xl animate-bounce delay-100"><img src="/assets/icons/favicon.ico" alt="" className="w-8 h-8" /></span>
       </div>
 
       {/* Slot Machine Lever */}
