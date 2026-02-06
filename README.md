@@ -1,4 +1,4 @@
-#  🎰 Vibe Slot 🎰
+#  🎰 Vibe Slot Name 🎰
 
 A fun and interactive slot machine-style web application for randomly assigning roles to participants. Perfect for meetings, games, or any scenario where you need to fairly distribute roles among a group.
 
